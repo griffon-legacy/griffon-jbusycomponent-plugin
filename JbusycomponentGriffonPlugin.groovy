@@ -18,10 +18,10 @@
  * @author Andres Almiray
  */
 class JbusycomponentGriffonPlugin {
-    def version = '0.5.1'
-    def dependsOn = ['swingx-builder': '0.4', jxlayer: 0.2]
+    def version = '0.5.2'
+    def dependsOn = ['swingx-builder': '0.5', jxlayer: 0.2]
     def toolkits = ['swing']
-    def griffonVersion = '0.9.2 > *'
+    def griffonVersion = '0.9.3 > *'
     def license = 'Apache Software License 2.0'
 
     def author = 'Andres Almiray'
