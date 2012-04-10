@@ -21,7 +21,7 @@ import griffon.jbusycomponent.factory.*
 /**
  * @author Andres Almiray
  */
-class JbusyComponentGriffonAddon {
+class JbusycomponentGriffonAddon {
    def factories = [
        busyComponent: new JBusyComponentFactory(),
        busyModel: new BeanFactory(DefaultBusyModel, true),

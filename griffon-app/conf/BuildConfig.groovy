@@ -31,7 +31,7 @@ griffon.project.dependency.resolution = {
     }
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime' or 'test' scopes eg.
-	compile('org.divxdede:jbusycomponent:1.2.2') { transitive = false }
+	    compile('org.divxdede:jbusycomponent:1.2.2') { transitive = false }
         compile('org.divxdede:commons:0.2.2') { transitive = false }
         // runtime 'mysql:mysql-connector-java:5.1.5'
     }
