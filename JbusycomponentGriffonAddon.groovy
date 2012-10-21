@@ -22,7 +22,7 @@ import griffon.jbusycomponent.factory.*
  * @author Andres Almiray
  */
 class JbusycomponentGriffonAddon {
-   def factories = [
+   Map factories = [
        busyComponent: new JBusyComponentFactory(),
        busyModel: new BeanFactory(DefaultBusyModel, true),
        futureBusyModel: new BeanFactory(FutureBusyModel, true)

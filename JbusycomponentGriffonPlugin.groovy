@@ -19,11 +19,11 @@
  */
 class JbusycomponentGriffonPlugin {
     // the plugin version
-    String version = '0.6'
+    String version = '1.0.0'
     // the version or versions of Griffon the plugin is designed for
-    String griffonVersion = '0.9.5 > *'
+    String griffonVersion = '1.0.0 > *'
     // the other plugins this plugin depends on
-    Map dependsOn = ['swingx-builder': '0.6', jxlayer: '0.3']
+    Map dependsOn = ['swingx-builder': '0.7', jxlayer: '1.0.0']
     // resources that are included in plugin packaging
     List pluginIncludes = []
     // the plugin license
@@ -55,7 +55,6 @@ Usage
 -----
 
 The following nodes will become available on a View script upon installing this plugin
-
 
 | Node            | Property              | Type       | Required | Bindable | Notes                         |
 | --------------- | --------------------- | -----------| -------- | -------- | ----------------------------- |
